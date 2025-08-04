@@ -2,3 +2,4 @@
 /.idea
 .iml
 *.class
+/node_modules
