@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
-import React from 'react';
-import {aboutus} from './aboutus';
-import {Contact} from './Contact';
-import {Home} from './Home';
+
+import Aboutus from './Aboutus.js';
+import Contact from './Contact.js';
+import Home from './Home.js';
 
 
 
@@ -11,7 +11,7 @@ function App() {
   return (<div>
     <Home/>
     =================
-    <aboutus/>
+    <Aboutus/>
     ===========
 
     <Contact/>
